@@ -1,0 +1,56 @@
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+.app-container{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.actions, .menu, .transactions {
+  margin: 20px 0;
+}
+
+.actions a, .menu a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: #6200ee;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.transactions {
+  width: 100%;
+  max-width: 400px;
+  background: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.login-signup-link {
+  position: absolute;
+  top: 10px; 
+  right: 10px; 
+  margin: 10px;
+  padding: 10px 20px;
+  
+  display: inline-block;
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  background: #6200ee;
+  color:white;
+  text-decoration: none; 
+ 
+  cursor: pointer; 
+}
